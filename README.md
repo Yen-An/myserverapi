@@ -47,7 +47,7 @@ ALGORITHM = UNDEFINED VIEW giftsys.stocklist AS
 	giftsys.gift_info.remark AS remark,
 	giftsys.gift_info.state AS state,
 	giftsys.gift_info.ectdate AS ectdate
-	from giftsys.gift_info;`
+	from giftsys.gift_info;
 ``` 
 ### stock calculate function stockvolume()
 
