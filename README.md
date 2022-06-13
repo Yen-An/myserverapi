@@ -1,5 +1,5 @@
 # 含有CURD及登入驗證功能之Express Api
-## Stard
+## Star
 ``` $npm i ```
 ### Start Express Server
 ``` $nodemon server ```
