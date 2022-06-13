@@ -1,4 +1,7 @@
 # 含有CURD及登入驗證功能之Express Api
+## Stard
+``` $npm i ```
+``` nodemon server ```
 ## 搭配我的前端頁面
 [Pages](https://github.com/Yen-An/yensgift)
 ## MySQL schema
