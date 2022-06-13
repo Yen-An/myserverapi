@@ -44,6 +44,7 @@ select
     giftsys.gift_info.ectdate AS ectdate
 from
     giftsys.gift_info;
+`    
 ### stock calculate function stockvolume()
 `CREATE  FUNCTION giftsys.stockvolume(giftidtmp varchar(45))
 RETURNS INT
@@ -68,5 +69,5 @@ BEGIN
 	else perchase-shipment
 	END;
 	RETURN  a;
-END;
+	END;
 `
