@@ -25,11 +25,8 @@ Body
 
 ```js
 {
-
-userid:string,
-
-userpwd:string,
-
+	userid:string,
+	userpwd:string,
 }
 ```
 
@@ -37,11 +34,8 @@ Example
 
 ```js
 {
-
-userid:"T00001",
-
-userpwd:"aabbcc",
-
+	userid:"T00001",
+	userpwd:"aabbcc",
 }
 ```
 
@@ -69,9 +63,7 @@ Header
 
 ```js
 {
-
-Authorization:Bearer  + token,
-
+	Authorization:Bearer  + token,
 }
 ```
 
@@ -97,9 +89,7 @@ Header
 
 ```js
 {
-
-Authorization:Bearer  + token,
-
+	Authorization:Bearer  + token,
 }
 ```
 
@@ -124,11 +114,8 @@ Header
 
 ```js
 {
-
-Authorization:Bearer  + token,
-
-searchindex:string
-
+	Authorization:Bearer  + token,
+	searchindex:string
 }
 ```
 
@@ -136,11 +123,8 @@ Example
 
 ```js
 {
-
-Authorization:Bearer  + token,
-
-searchindex:EncodeURL("酒"),
-
+	Authorization:Bearer  + token,
+	searchindex:EncodeURL("酒"),
 }
 ```
 
@@ -203,10 +187,10 @@ Header
 {
 	Authorization:Bearer  + token,
 	selopt: string //禮品類型 ABCD四型 not null
-  ectdate: date //有效日期
-  filename: file blob //not null
-  giftprice: int //not null
-  remark: string //備註
+	ectdate: date //有效日期
+	filename: file blob //not null
+	giftprice: int //not null
+	remark: string //備註
 }
 ```
 
@@ -216,10 +200,10 @@ Example
 {
 	Authorization:Bearer  + token,
 	selopt: "B" //禮品類型 ABCD四型 not null
-  ectdate: 2022-06-06 //有效日期
-  filename: file blob //not null
-  giftprice: 1 //not null
-  remark: "路口小七買的" //備註
+	ectdate: 2022-06-06 //有效日期
+	filename: file blob //not null
+	giftprice: 1 //not null
+	remark: "路口小七買的" //備註
 }
 ```
 
