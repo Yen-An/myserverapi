@@ -36,8 +36,8 @@
 ### view
 
 ```
-	CREATE OR REPLACE
-	ALGORITHM = UNDEFINED VIEW giftsys.stocklist AS
+CREATE OR REPLACE
+ALGORITHM = UNDEFINED VIEW giftsys.stocklist AS
 	select
 	giftsys.gift_info.giftid AS giftid,
 	giftsys.gift_info.giftname AS giftname,
@@ -52,9 +52,9 @@
 ### stock calculate function stockvolume()
 
 ```
-	CREATE  FUNCTION giftsys.stockvolume(giftidtmp varchar(45))
-	RETURNS INT
-	BEGIN
+CREATE  FUNCTION giftsys.stockvolume(giftidtmp varchar(45))
+RETURNS INT
+BEGIN
 	DECLARE perchase int;
 	DECLARE shipment int;
 	DECLARE a int;
@@ -75,6 +75,6 @@
 	else perchase-shipment
 	END;
 	RETURN  a;
-	END;
+END;
 ```
 
