@@ -30,8 +30,8 @@
 - get_id varchar(45)
 - checkdata data
 ### view
-`
-CREATE OR REPLACE
+
+`CREATE OR REPLACE
 ALGORITHM = UNDEFINED VIEW giftsys.stocklist AS
 select
 giftsys.gift_info.giftid AS giftid,
@@ -43,10 +43,12 @@ giftsys.gift_info.remark AS remark,
 giftsys.gift_info.state AS state,
 giftsys.gift_info.ectdate AS ectdate
 from
-giftsys.gift_info;
-`    
+giftsys.gift_info;`
+  
 ### stock calculate function stockvolume()
-`CREATE  FUNCTION giftsys.stockvolume(giftidtmp varchar(45))
+
+`
+CREATE  FUNCTION giftsys.stockvolume(giftidtmp varchar(45))
 RETURNS INT
 BEGIN
 	DECLARE perchase int;
