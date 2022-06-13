@@ -373,8 +373,8 @@ Header
 ```javascript
 {
 	Authorization:Bearer  + token,
-  selopt:string, //通過或不通過 須經過EncodeURL編碼
-  get_id:string, //領用的案件編號
+	selopt:string, //通過或不通過 須經過EncodeURL編碼
+	get_id:string, //領用的案件編號
 }
 ```
 
@@ -383,8 +383,8 @@ Example
 ```js
 {
 	Authorization:Bearer  + token,
-  selopt:'通過', //通過或不通過 須經過EncodeURL編碼
-  get_id:'T00001000532',
+	selopt:'通過', //通過或不通過 須經過EncodeURL編碼
+	get_id:'T00001000532',
 }
 ```
 
